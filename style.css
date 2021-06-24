@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*Sign Up Page*/
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  background: #ffffff;
+  color: #333333;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  padding: 0 40px;
+}
+
+nav {
+  display: inline-block;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.logo-img {
+  margin: 13px 20px;
+  float: left;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.left {
+  width: 43%;
+  padding: 0 20px;
+  float: left;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 49px;
+  margin: 0;
+  padding: 0;
+}
+
+.big-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.small-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+input {
+  padding-left: 10px;
+}
+
+.parent-div {
+  display: flex;
+}
+
+.child-div {
+  flex-wrap: wrap;
+  margin-right: 15px;
+}
+
+#firstname {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 247px;
+  height: 40px;
+}
+
+#lastname {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 247px;
+  height: 40px;
+}
+
+#email {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 520px;
+  height: 40px;
+}
+
+#password {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 247px;
+  height: 40px;
+}
+
+#confirmpassword {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 247px;
+  height: 40px;
+}
+
+/*.password-main {
+    display: flex;
+    background: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    width: 526px;
+    height: 40px;
+  }*/
+
+.password-eye {
+    float: right;
+}
+
+#hide {
+    display: none;
+}
+
+#div-strength {
+  display: flex;
+  justify-content: space-around;
+}
+
+#green {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #56c568;
+  padding-left: 30px;
+}
+
+.passwordstrength {
+  background: #56c568;
+  width: 70px;
+  height: 4px;
+}
+
+.button {
+  background: #1feda3;
+  color: #000000;
+  border-radius: 5px;
+  border: none;
+  width: 515px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #0077dc;
+  padding: 0 3px;
+}
+
+.signup-img {
+  padding: 130px;
+  height: 300px;
+}
+
+/*Sign In Page*/
+
+#signpassword {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 515px;
+  height: 40px;
+}
+
+.right {
+  float: right;
+}
+
+.signin-img {
+  padding: 90px;
+  height: 300px;
+}
+
+/*Forgot Password Page*/
+
+#resetcode {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 523px;
+  height: 40px;
+}
+.password-div {
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 526px;
+  height: 40px;
+}
+
+.code-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.codetext-div {
+  width: 90px;
+  margin-top: -15px;
+  padding: 2px 0 25px;
+}
+
+.tickicon-img {
+  height: 16px;
+  padding: 15px 12px 35px;
+}
+
+.forgotpassword-img {
+  padding: 130px;
+  height: 300px;
+}
+
+/*Successful Popup Page*/
+
+#successfulpopup {
+  width: 550px;
+  height: 450px;
+  margin: 100px auto 0;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.successfultickicon {
+  width: 96px;
+}
+
+.successfulbutton {
+  margin-top: 50px;
+}
+
+/*Contact Us Page*/
+
+.contact-parent {
+  height: 430px;
+  padding-left: 150px;
+}
+
+.contact-child {
+  display: flex;
+  margin: 20px;
+}
+
+.contact-p {
+  color: #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+
+.contactbig-p {
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+.parent-info {
+  margin-top: 70px;
+  padding: 10px;
+}
+
+.contact-info {
+    display: inline;
+    justify-content: space-around;
+}
+
+.contactform-div {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+  height: 600px;
+  width: 530px;
+  position: relative;
+  padding: 20px;
+  margin: 0 120px;
+  border-radius: 5px;
+}
+
+#contact-name {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 520px;
+  height: 40px;
+}
+
+#contact-email {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 520px;
+  height: 40px;
+}
+
+#contact-message {
+  font-family: "Roboto";
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  width: 520px;
+  height: 190px;
+}
+
+.contact-footer {
+  background: #0a8057;
+  height: 346px;
+}

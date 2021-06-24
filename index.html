@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9ja Poll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="image/logo.png" alt="" class="logo-img">
+            <p>9japolls</p>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">
+            <h2>
+                Create an Account
+            </h2>
+            <p class="big-p">Enter your details to get started</p>
+            <form method="POST">
+                <div class="parent-div">
+                    <div class="child-div">
+                        <p class="small-p">First name</p>
+                        <input type="text" placeholder="Enter your first name" id="firstname" required="required">
+                    </div>
+                    <div class="child-div">
+                        <p class="small-p">Last name</p>
+                        <input type="text" placeholder="Enter your last name" id="lastname" required="required">
+                    </div>
+                </div>
+                <p class="small-p">Email</p>
+                <input type="email" name="" placeholder="example@gmail.com" id="email" required="required">
+                <div class="parent-div">
+                    <div class="child-div">
+                        <p class="small-p">Password</p>
+                        <div class="password-main">
+                            <input type="password" name="" placeholder="xxxxxxxxxxx" id="password" required="required">
+                            <!--<img src="image/eye.png" alt="" class="password-eye" id="show">
+                            <img src="image/eyeslash.png" alt="" class="password-eye" id="hide">-->
+                        </div>
+                        </div>
+                    <div class="child-div">
+                        <p class="small-p">Confirm Password</p>
+                        <input type="password" name="" placeholder="xxxxxxxxxxx" id="confirmpassword" required="required">
+                    </div>
+                </div>
+                <div id="parent-strength">
+                    <p class="small-p">Password Strength</p>
+                    <div id="div-strength">
+                        <div class="passwordstrength"></div>
+                        <div class="passwordstrength"></div>
+                        <div class="passwordstrength"></div>
+                        <div class="passwordstrength"></div>
+                    </div>
+                    <p id="green">Strong</p>
+                </div>
+                <p class="small-p">By clicking Sign up, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
+                <input type="submit" value="Create Account" class="button">
+            </form>
+            <p class="big-p">Already have an account? <a href="signin.html">Sign in</a></p>
+        </div>
+        <div class="left">
+            <img src="image/signup-img.png" alt="" class="signup-img">
+        </div>
+    </div>
+</body>
+</html>
