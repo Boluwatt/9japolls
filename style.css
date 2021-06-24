@@ -172,6 +172,156 @@ a {
   height: 300px;
 }
 
+/*Sign Up Media Queries*/
+
+@media (max-width: 1000px) {
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .big-p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .small-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #firstname {
+    width: 420px;
+  }
+
+  #lastname {
+    width: 420px;
+  }
+  
+  input {
+    padding-left: 8px;
+  }
+
+  .password-div {
+    width: 420px;
+  }
+
+  .parent-div {
+    display: inline-block;
+  }
+
+  #password {
+    width: 420px;
+  }
+
+  #confirmpassword {
+    width: 420px;
+  }
+
+  .passwordstrength {
+    width: 50px;
+  }
+
+  .button {
+    width: 430px;
+  }
+
+  .signup-img {
+    padding: 80px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .big-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .small-p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #firstname {
+    width: 380px;
+  }
+
+  #lastname {
+    width: 380px;
+  }
+  
+  input {
+    padding-left: 6px;
+  }
+
+  .password-div {
+    width: 380px;
+  }
+
+  #password {
+    width: 380px;
+  }
+
+  #confirmpassword {
+    width: 380px;
+  }
+
+  .passwordstrength {
+    width: 30px;
+    height: 3px;
+  }
+
+  .button {
+    width: 390px;
+  }
+
+  .signup-img {
+    padding: 70px;
+    height: 220px;
+  } 
+}
+
+@media (max-width: 716px) {
+  .signup-div{
+    display: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+  h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .big-p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .small-p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  input {
+    padding-left: 4px;
+  }
+
+  .password-div {
+    width: 380px;
+  }
+}
+
 /*Sign In Page*/
 
 #signpassword {
@@ -189,6 +339,127 @@ a {
 .signin-img {
   padding: 90px;
   height: 300px;
+}
+
+/*Sign in Media Queries*/
+
+@media (max-width: 1000px) {
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .big-p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .small-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  input {
+    padding-left: 8px;
+  }
+
+  #email {
+    width: 420px;
+  }
+
+  #signpassword {
+    width: 420px;
+  }
+
+  .button {
+    width: 430px;
+  }
+
+  .signin-img {
+    padding: 80px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .big-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .small-p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  input {
+    padding-left: 6px;
+  }
+
+  #email {
+    width: 380px;
+  }
+
+  #signpassword {
+    width: 380px;
+  }
+
+  .button {
+    width: 390px;
+  }
+
+  .signin-img {
+    padding: 70px;
+    height: 220px;
+  } 
+}
+
+@media (max-width: 670px) {
+  .signin-div {
+    display: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+  h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .big-p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .small-p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  input {
+    padding-left: 4px;
+  }
+
+  #email {
+    width: 380px;
+  }
+
+  #signpassword {
+    width: 380px;
+  }
+
+  .button {
+    width: 390px;
+  }
 }
 
 /*Forgot Password Page*/
@@ -231,6 +502,143 @@ a {
   height: 300px;
 }
 
+/*Forgot Password Media Queries*/
+
+@media (max-width: 1000px) {
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .big-p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .small-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  input {
+    padding-left: 8px;
+  }
+
+  .password-div {
+    width: 420px;
+  }
+
+  .parent-div {
+    display: inline-block;
+  }
+
+  #password {
+    width: 420px;
+  }
+
+  #confirmpassword {
+    width: 420px;
+  }
+
+  .button {
+    width: 430px;
+  }
+
+  .forgotpassword-img {
+    padding: 80px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .big-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .small-p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  input {
+    padding-left: 6px;
+  }
+
+  .password-div {
+    width: 380px;
+  }
+
+  #password {
+    width: 380px;
+  }
+
+  #confirmpassword {
+    width: 380px;
+  }
+
+  .button {
+    width: 390px;
+  }
+
+  .forgotpassword-img {
+    padding: 70px;
+    height: 220px;
+  } 
+}
+
+@media (max-width: 716px) {
+  .forgotpassword-div {
+    display: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+  h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .big-p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .small-p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  input {
+    padding-left: 4px;
+  }
+
+  .password-div {
+    width: 380px;
+  }
+
+  #password {
+    width: 380px;
+  }
+
+  #confirmpassword {
+    width: 380px;
+  }
+
+  .button {
+    width: 390px;
+  }
+}
+
 /*Successful Popup Page*/
 
 #successfulpopup {
@@ -247,6 +655,47 @@ a {
 
 .successfulbutton {
   margin-top: 50px;
+}
+
+/*Successful Popup Media Query*/
+
+@media (max-width: 768px) {
+
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  #successfulpopup {
+    width: 500px;
+    height: 400px;
+    margin: 90px auto 0;
+    padding-top: 70px;
+  }
+
+  .successfultickicon {
+    width: 70px;
+  }
+
+  .successfulbutton {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  #successfulpopup {
+    width: 450px;
+    height: 350px;
+    margin: 70px auto 0;
+    padding-top: 50px;
+  }
+
+  .successfultickicon {
+    width: 50px;
+  }
+
 }
 
 /*Contact Us Page*/
@@ -328,4 +777,207 @@ a {
 .contact-footer {
   background: #0a8057;
   height: 346px;
+}
+
+/*Contact Us Page Media Query*/
+
+@media (max-width: 1200px) {
+  .contact-parent {
+    height: 430px;
+    padding-left: 150px;
+  }
+  
+  .contact-child {
+    display: flex;
+    margin: 15px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  
+  .contact-p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .contactbig-p {
+      font-size:15px;
+      line-height: 17px;
+    }
+  
+  .parent-info {
+    margin-top: 70px;
+    padding: 10px;
+  }
+  
+  .contact-info {
+      display: inline;
+      justify-content: space-around;
+  }
+  
+  .contactform-div {
+    height: 500px;
+    width: 430px;
+    position: relative;
+    padding: 15px;
+    margin: 0 100px;
+  }
+  
+  #contact-name {
+    font-family: "Roboto";
+    width: 420px;
+  }
+  
+  #contact-email {
+    font-family: "Roboto";
+    width: 420px;
+  }
+  
+  #contact-message {
+    font-family: "Roboto";
+    width: 420px;
+    height: 150px;
+  }
+
+  .button {
+    width: 430px;
+  }
+  
+  .contact-footer {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-parent {
+    height: 400px;
+    padding-left: 150px;
+  }
+  
+  .contact-child {
+    display: flex;
+    margin: 15px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  
+  .contact-p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  
+  .contactbig-p {
+      font-size:14px;
+      line-height: 16px;
+    }
+  
+  .parent-info {
+    margin-top: 50px;
+    padding: 8px;
+  }
+  
+  .contact-info {
+      display: inline;
+      justify-content: space-around;
+  }
+  
+  .contactform-div {
+    height: 450px;
+    width: 380px;
+    position: relative;
+    padding: 12px;
+    margin: 0 80px;
+  }
+  
+  #contact-name {
+    font-family: "Roboto";
+    width: 370px;
+  }
+  
+  #contact-email {
+    font-family: "Roboto";
+    width: 370px;
+  }
+  
+  #contact-message {
+    font-family: "Roboto";
+    width: 370px;
+    height: 120px;
+  }
+
+  .button {
+    width: 380px;
+  }
+  
+  .contact-footer {
+    height: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .contact-parent {
+    padding-left: 100px;
+  }
+
+  .contact-child {
+    display: inline-block;
+    margin: 15px;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .contact-footer {
+    display: none;
+  }
+
+  .contactform-div {
+    height: 450px;
+    width: 380px;
+    position: relative;
+    padding: 12px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .contact-parent {
+    padding-left: 50px;
+  }
+
+  .contactform-div {
+    height: 420px;
+    width: 320px;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+  }
+
+  #contact-name {
+    font-family: "Roboto";
+    width: 300px;
+  }
+  
+  #contact-email {
+    font-family: "Roboto";
+    width: 300px;
+  }
+  
+  #contact-message {
+    font-family: "Roboto";
+    width: 300px;
+    height: 100px;
+  }
+
+  .button {
+    width: 310px;
+  }
 }
